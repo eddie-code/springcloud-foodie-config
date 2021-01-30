@@ -1,10 +1,11 @@
 management:
   endpoint:
+    env:
+      enabled: true
     health:
       show-details: always
   endpoints:
     web:
       exposure:
         include: '*'
-  security:
-    enabled: false
+#        include: health, info  # prod不推荐开启所有 '*'
