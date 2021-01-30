@@ -1,0 +1,9 @@
+# 数据库连接串 & 密码
+mariadb:
+  url: 'jdbc:mysql://192.168.8.100:61337/foodie-shop?useUnicode=true&characterEncoding=UTF-8&autoReconnect=true&useSSL=false&serverTimezone=Asia/Shanghai'
+  password: '{cipher}AQAqRwZUKPM0/6u+gC5hE6yWYbPpKi9jAeKM9+IF75q61ezumohgH7pGD6zp80OWncILRCDZ89LfXCWr6Vlq+m7KAPMeooh+ngHLHT03yPj7E3Xvfr9rzzAd2azjntWZNAPmNo5Rkdo4u7gVrjA3CkSBSVtWwi1I8O/enG3eGdJlK1YYZ1WU85SdDD+hAVIEqjmue3hApx7FYAzB9zOuWXRn1pp2rNYRQORvDqD7GS3dYf3qUMOznI0PKCbS6qwbOxnrAHwn+/tOvf5phRzt30L59tUqajRtdmw7qLGhYL6dxCtwumZ0krYEe7OaJiXLdrpbVF/H6nFwW8ucyMLJIcRFyfNeNY7AAHovtOyqmJTNkO4qTD8yJNt/gsvitY5qQBA='
+
+# 功能开关 - 开启/关闭注册功能
+userservice:
+  registration: 
+    disabled: false
